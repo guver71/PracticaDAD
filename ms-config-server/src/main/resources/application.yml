@@ -8,4 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/guver71/PracticaDAD.git
+          search-paths: config-data
+          #username:
+          #password:
+          default-label: ms-config-serve
+  security:
+    user:
+      name: root
+      password: s3cr3t
